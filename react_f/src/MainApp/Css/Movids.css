@@ -1,0 +1,77 @@
+DivMovids{
+    flex-direction: column;
+    width: 100%;
+}
+.navbar-brand{
+
+    margin-right: 2em;
+    font-size:xx-large;
+    font-family: Georgia, serif;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+.navbar>.container, .navbar>.container-fluid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+
+}
+.navbar-brand2{
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: rgba(0,0,0,.9);
+    font-size:large;
+    font-family: Georgia, serif;
+}
+.container-fluid2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: inherit;
+
+}
+.logoMovids{
+   height: 5em;
+}
+@media only screen and (max-width: 600px) {
+    .navbar>.container, .navbar>.container-fluid {
+
+    }
+    .navbar-brand{
+
+        font-size:large;
+    }
+    .navbar-brand2{
+
+
+        font-size:small;
+    }
+    .logoMovids{
+        height: 3em;
+    }
+
+}

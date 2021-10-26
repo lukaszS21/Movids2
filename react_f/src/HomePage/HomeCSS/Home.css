@@ -1,0 +1,66 @@
+.BackGround1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../back1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    margin:0;
+    padding:0;
+
+
+}
+.BackGround2{
+
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    opacity: 50%;
+
+}
+.Content2{
+    display: contents;
+}
+.Content{
+    color:white;
+    font-size:xx-large;
+    font-family: Georgia, serif;
+}
+.logo{
+    border: 1px white;
+    color: white;
+    height: 15em;
+
+    width: 25em;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Register{
+    margin-top: 2em;
+}
+@media only screen and (max-width: 400px) {
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .Content2{
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size:x-large;
+    }
+    .Content{
+        font-size:x-large;
+    }
+}

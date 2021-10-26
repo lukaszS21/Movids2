@@ -1,0 +1,79 @@
+.Ad{
+    height: 25em;
+    background-color: black;
+    opacity: 90%;
+
+    color: white;
+}
+.carousel-item{
+    height: 25em;
+    background-color: black;
+    opacity: 90%;
+
+    color: white;
+}
+
+.Img{
+    margin-top: 1em;
+    height: 23em;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+.Items{
+    display: flex;
+    justify-content: space-around;
+
+}
+.Items2{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.Words{
+    font-family: Georgia, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.Words2{
+    font-family: Georgia, serif;
+    font-size: large;
+
+}
+.Words3{
+    font-family: Georgia, serif;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+}
+.Words4{
+    font-family: Georgia, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size:xx-large;
+    margin-top: 2em;
+
+}
+@media only screen and (max-width: 400px) {
+    .Items{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .carousel-item{
+        height: 50em;
+    }
+    .Words2{
+        margin-top: 2em;
+    }
+    .Words4 {
+        font-size:large;
+        margin-top: 4em;
+    }
+}

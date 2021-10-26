@@ -1,0 +1,48 @@
+.BackGroundFooter{
+    background-color: black;
+    opacity: 90%;
+    color: #dbdbdb;
+    display:flex;
+    justify-content: space-around;
+
+
+}
+.Contact{
+    font-size: 1.5em;
+    margin-top: 0.5em;
+
+}
+.Footer{
+    font-family: Georgia, serif;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    color: #c9c9c9;
+}
+.Help{
+    justify-content: center;
+    margin-top: 0.5em;
+    font-size: 1.5em;
+}
+.Footer2{
+    font-family: Georgia, serif;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    color: #c9c9c9;
+}
+@media only screen and (max-width: 500px) {
+    .Footer{
+        align-items: center;
+        font-size: small;
+    }
+    .Footer2{
+        align-items: center;
+        font-size: small;
+    }
+    .BackGroundFooter{
+        flex-direction: column;
+        height: 24em;
+        justify-content: normal;
+    }
+}

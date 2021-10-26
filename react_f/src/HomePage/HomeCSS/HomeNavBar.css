@@ -1,0 +1,10 @@
+.HomeNavbar{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+a{
+    margin-top: 0.3em;
+    margin-right: 1em;
+}
