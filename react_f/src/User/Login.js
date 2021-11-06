@@ -18,7 +18,7 @@ function Login(){
                             <input type="password" className="form-control" id="inputPassword4" placeholder="password"/>
                         </div>
                         <div className="ButtonLog">
-                            <a className="btn btn-secondary" href="Page1" role="button"> LogIn</a>
+                            <a className="btn btn-secondary" href="Movids" role="button"> LogIn</a>
                         </div>
                         <div className="links">
                             Don't have an account? <a href="Register" className="Sing">Sign Up</a>

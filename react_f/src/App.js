@@ -6,7 +6,7 @@ import home from './HomePage/Home.js'
 import login from './User/Login'
 import register from './User/Register'
 import movids from './MainApp/Movids'
-import films from "./MainApp/viedo/Films/Films";
+import films from "./MainApp/viedo/Serials/Films";
 function App() {
   return (
       <BrowserRouter>
